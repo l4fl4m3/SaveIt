@@ -22,7 +22,7 @@ contract('DStorage', ([deployer, uploader]) => {
 
     it('has a name', async () => {
       const name = await dstorage.name()
-      assert.equal(name, 'DStorage')
+      assert.equal(name, 'SaveIt')
     })
   })
 
